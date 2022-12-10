@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">  
+    
+    <style>
+        nav{
+            font-size: 20px;
+        }
+
+        .no-padding {
+        padding-left: 0;
+        padding-right: 0;
+        }
+
+        .font-size{
+            font-size: 50px;
+            color: rgb(23, 162, 184);
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-info navbar-dark sticky-top">
+
+        <div class="container-fluid">
+            <a class="navbar-brand text-center" href="">
+                GUNDAM
+                <h6>Universal Century</h6>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#thisIsTheMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="#thisIsTheMenu">
+                <ul class="navbar-nav ms-5">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu" data-bs-toggle="dropdown">
+                            Catalog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="#dropdownMenu">
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    RX-93 ν Gundam
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    MSZ-006 Zeta Gundam
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    MSZ-010 ΖΖ Gundam
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    MSN-04 Sazabi
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    RX-0 Unicorn Gundam
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    RX-0 Unicorn Gundam 02 Banshee
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar-nav me-0 w-50">
+            <form class="container-fluid align-content-end ms-5">
+                <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                <button class="btn btn-success">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                </div>
+            </form>
+        </nav>
+    </nav>
+
+    <div class="container-fluid no-padding">
+        <div class="carousel slide" data-bs-ride="carousel" id="controllMeCarousel">
+            <div class="carousel-indicators">
+                <button data-bs-target="controllMeCarousel" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="controllMeCarousel" data-bs-slide-to="1"></button>
+                <button data-bs-target="controllMeCarousel" data-bs-slide-to="2"></button>
+                <button data-bs-target="controllMeCarousel" data-bs-slide-to="3"></button>
+                <button data-bs-target="controllMeCarousel" data-bs-slide-to="4"></button>
+                <button data-bs-target="controllMeCarousel" data-bs-slide-to="5"></button>
+            </div>
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel1.jpg" class="d-block h-80 w-100">
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="img/carousel2.jpg" class="d-block h-80 w-100">
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="img/carousel3.jpg" class="d-block h-80 w-100">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel4.jpg" class="d-block h-80 w-100">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel5.webp" class="d-block h-80 w-100">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/carousel6.jpg" class="d-block h-80 w-100">
+                </div>
+            </div>
+    
+            <button class="carousel-control-prev" data-bs-target="#controllMeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+    
+            <button class="carousel-control-next" data-bs-target="#controllMeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+    
+        </div>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="container-fluid">
+        <div class="row gx-3 gy-5">
+
+        <div class="col-12">
+                <div class="card text-center text-light bg-warning">
+                    <div class="header mx-5 my-3">
+                        <h1>ANNOUNCEMENT</h1>
+                    </div>
+
+                    <div class="card-body mx-5 my-3">
+                        <h4 class="card-title">SITE IS STILL UNDER REPAIR</h4>
+                    
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
+                        
+                        <br>
+                        <br>
+
+                        <a href="#" class="btn text-warning btn-light">
+                            View More
+                        </a>
+    
+                </div>
+    
+                <div class="footer mx-5 my-3">
+                    Until: December 09, 2022
+                    <br>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="card text-center">
+                <div class="header mx-5 my-3">
+                    <h3>GUNDAM REPOSITORY</h3>
+                    <h4 class="text-secondary">Universal Century</h4>
+                </div>
+
+                <div class="card-body mx-5 my-3">
+                
+                    <p class="card-text">This site serves as a library for the <b class="text-info">GUNDAM</b> Franchise, particularly those belonging to the Universal Century. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non a delectus suscipit eligendi culpa expedita numquam similique quia neque eos, ratione odio repudiandae? Voluptatibus consectetur cupiditate inventore ipsa voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ullam? Modi suscipit labore rem magni itaque facere minima optio rerum enim! Atque laboriosam laudantium harum nostrum voluptatem, dolor sequi adipisci. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium fugit vitae quidem corrupti voluptates? Ea alias molestiae ratione corporis fugiat sed nam nihil, obcaecati perferendis repellat quia a excepturi consequatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores explicabo perferendis officiis quod atque, autem minus ex nisi sed asperiores amet assumenda, officia quos tempore libero et! Veritatis, sed voluptatibus? 
+                    
+                    <br>
+                    <br>
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quas, quo culpa voluptatum ad reprehenderit maiores voluptas consequuntur at minima neque animi placeat aliquam reiciendis tempore vitae dolorem! Est, unde. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem voluptatem ea, repellendus dolore odio minima iste asperiores enim quae labore, perspiciatis blanditiis. Corrupti molestias ullam ducimus possimus vero tenetur corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vitae assumenda minus distinctio corporis laborum, quam ab officia accusamus et in commodi eaque, eveniet odio vero, mollitia nihil obcaecati. Nobis.
+                    </p>
+                    
+                    <br>
+                    <br>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+        <div class="text-center">
+            <h1>Ace Pilots:</h1>
+            <h3 class="text-secondary">[Mobile Suit]</h3>
+        </div>
+
+
+        <div class="row g-3">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/avatar1.png" class="card-img-top border-primary rounded-circle">
+                        <div class="card-body">
+                        <h3 class="card-title">Amuro Ray</h3>
+                        <h4 class="card-subtitle text-muted">[RX-93 ν Gundam]</h4>
+
+                        <br>
+                        <p class="card-text">The RX-93 ν Gundam (aka Nu Gundam, Nu) is a mobile suit that appears in Mobile Suit Gundam: Char's Counterattack. It was designed and piloted by Amuro Ray.</p>
+
+
+                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#modalAmuro">
+                            View More
+                        </button>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/avatar2.png" class="card-img-top border-primary rounded-circle">
+                        <div class="card-body">
+                        <h3 class="card-title">Kamille Bidan</h3>
+                        <h4 class="card-subtitle text-muted">[MSΖ-006 Zeta Gundam]</h4>
+
+                        
+                        <br>
+                        <p class="card-text">The MSΖ-006 Zeta Gundam is the titular mobile suit of the Mobile Suit Zeta Gundam television series and also featured in the Mobile Suit Gundam ZZ television series. It was piloted by one of its designers, Kamille Bidan, during the Gryps Conflict.</p>
+
+                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#modalKamille">
+                            View More
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/avatar3.png" class="card-img-top border-primary rounded-circle">
+                        <div class="card-body">
+                        <h3 class="card-title">Judau Ashta</h3>
+                        <h4 class="card-subtitle text-muted">[MSZ-010 ZZ Gundam]</h4>
+
+                        
+                        <br>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
+
+
+                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#modalJudau">
+                            View More
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/avatar4.png" class="card-img-top border-primary rounded-circle">
+                        <div class="card-body">
+                        <h3 class="card-title">Char Aznable</h3>
+                        <h4 class="card-subtitle text-muted">[MSN-04 Sazabi]</h4>
+                        
+                        <br>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
+
+
+                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#modalChar">
+                            View More
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/avatar5.png" class="card-img-top border-primary rounded-circle">
+                        <div class="card-body">
+                        <h3 class="card-title">Banagher Links</h3>
+                        <h4 class="card-subtitle text-muted">[RX-0 Unicorn Gundam]</h4>
+
+                        
+                        <br>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
+
+
+                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#">
+                            View More
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/avatar6.png" class="card-img-top border-primary rounded-circle">
+                        <div class="card-body">
+                        <h3 class="card-title">Marida Cruz</h3>
+                        <h4 class="card-subtitle text-muted">[RX-0 Unicorn Gundam 02 Banshee]</h4>
+
+                        
+                        <br>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
+
+
+                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#">
+                            View More
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+
+        <div class="text-start">
+            <h1 class="text-center">FEEDBACK</h1>
+            <div class="text-center">
+                <i class="fa-brands fa-google font-size"></i>
+                <i class="fa-brands fa-facebook font-size"></i>
+                <i class="fa-brands fa-twitter font-size"></i>
+                <i class="fa-brands fa-pinterest font-size"></i>
+                <i class="fa-brands fa-instagram font-size"></i>
+
+            </div>
+
+            <form action="">
+                <label>Name</label>
+                <br>
+                <input type="text" class="form-control">
+                <br>
+                <label>Address</label>
+                <br>
+                <input type="text" class="form-control">
+                <br>
+                <label>Comment</label>
+                <br>
+                <textarea class="form-control h-100"></textarea>
+                <br>
+                <div class="text-center">
+                    <input type="submit" class="btn text-light btn-info w-25">
+                </div>
+            </form>
+        </div>
+
+    </div>        
+    </div>
+
+    <br>
+
+
+
+    <div class="modal fade" id="modalAmuro">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content text-wrap text-start">
+                <div class="modal-header">
+                    <h3 class="modal-title">RX-93 ν Gundam</h3>
+                </div>
+    
+                <div class="modal-body">
+
+                        <img src="img/NuFront.webp" class="d-inline-block h-100 float-lg-start">
+
+
+                    <p>The ν Gundam is one of the most advanced mobile suits during the Second Neo Zeon War in U.C. 0093, together with Char Aznable's MSN-04 Sazabi, it is used by Amuro Ray who also came up with its basic design. It was manufactured at Anaheim Electronics' Von Braun plant and completed in a short period of time (about three months) under the supervision of chief engineer October Saran. Its design is based on the average specification values of each successive generations of Gundam-type units from the original RX-78-2 Gundam to the MSZ-010 ΖΖ Gundam, and updated with state-of-the-art technologies introduced at the time. Various test data collected from the ARX-014P Silver Bullet (Funnel Test Type), the YRA-90A μ Gundam and the RX-9 Narrative Gundam were also used in its development.
+                    <br>
+                    <br>
+                    The ν Gundam's design focuses on versatility and operational aspects, as well as emphasis on reliability and durability for protracted battles. It adopts unitized parts that are designed according to EFF standards, except for the Psycho-Frame, for easier procurement of parts and materials and reducing special components as much as possible. It can be easily repaired due to maintenance feedback and combat data. In addition, it reflects Amuro Ray's experience as an MS pilot cultivated over the years.
+                    <br>
+                    <br>
+                    Incorporating the Psycho-Frame technology secretly provided to Anaheim Electronics by Char Aznable of Neo Zeon, the ν Gundam was able to utilize Psycommu weapons and channel the emotions and mental energies of a Newtype pilot. It is also the first Gundam-type machine to be equipped with Funnels, and a newly developed MS control program is installed to account for the ν Gundam's center of mass during the separation and movement of the Funnels[3]. Despite its short development time, the ν Gundam proved itself to be a formidable mobile suit and when combined with legendary ace pilot Amuro Ray's immense skill and experience, this powerful, state-of-the-art machine was able to almost single-handedly hold back the whole Neo Zeon force, and its Psycho-Frame was put to the test to determine the history of humanity living on earth.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    </p>
+                    
+                    <div class="accordion d-inline-block w-100" id="sampleAccordion">
+                    
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="accordionOne">
+                                    <button class="accordion-button collapsed bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentOne">Special Equipment</button>
+                                </h2>
+                                
+                                <div class="accordion-collapse collapse" id="contentOne" data-bs-parent="#sampleAccordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Birdlime Launchers</b></li>
+                                            Fires an adhesive substance from the hands that can be used to repair small cracks in colony wall or to restrain soldiers on foot.
+                                            <br>
+                                            <br>
+                                            <li><b>Dummy Launchers</b></li>
+                                            Stored in the hands, these launchers can deploy mobile suit sized dummy balloons as decoys.
+                                            <br>
+                                            <br>
+                                            <li><b>Psycho-Frame Cockpit</b></li>
+                                            The cockpit is composed of microscopic Psycommu receptors that allow a Newtype pilot to control the suit as if it is their own body as well as to have better command over remote weaponry. A psycommu receiver is located at the back of the pilot's headrest. Cockpit also features airmats that are used in case of impact.
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <h2 class="accordion-header" id="accordionTwo">
+                                    <button class="accordion-button collapsed bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentTwo">Armaments</button>
+                                </h2>
+                    
+                                <div class="accordion-collapse collapse" id="contentTwo" data-bs-parent="#sampleAccordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                        <li><b>60mm Vulcan Gun</b></li>
+                                        A basic armament of many Federation mobile suits, a pair are mounted on the ν Gundam's head. The Vulcan Guns are mainly for intercepting incoming missiles/rockets, destroying mobile suit sensors, and engaging lightly-armored vehicles.
+                                        <br>
+                                        <br>
+                                        <li><b>Beam Saber</b></li>
+                                        The primary beam saber used by the ν Gundam, it is stored on the right side of the backpack and is also known as Custom Beam Saber. Output 0.85 MW. Features a curved beam blade, and can also emit a short blade from the bottom of the grip. Changes to the specifications of the amplifier and emitter allow it to emit beam blade of different shape. Compared to earlier models, it is more energy efficient due to the 'Auto Power On' feature, which enables the saber to instantaneously generate a beam blade only during moments of impact with enemy suits.
+                                        <br>
+                                        <br>
+                                        <li><b>Spare Beam Saber</b></li>
+                                        Equipped on the left arm's shield mount base. It is a standard-issue beam saber and has a lower output than the primary beam saber.
+                                        <br>
+                                        <br>
+                                        <li><b>Beam Rifle</b></li>
+                                        A high-powered beam rifle with a output of 3.8 MW. At maximum output, the beam fired is comparable in power to that of a battleship-class main cannon from the same time period. It can also function as a beam machine gun by changing the burst selector. An independent aiming device was initially meant to be mounted above the rifle’s barrel, but it was changed to a single-shot grenade launcher that was originally intended to fire high intensity flash round for defensive purpose rather than offensive projectile.
+                                        <br>
+                                        <br>
+                                        <li><b>New Hyper Bazooka</b></li>
+                                        The ν Gundam is armed with a 280mm five round magazine hyper bazooka that has improved firing range and destructive power compared to the Hyper Bazooka used by other Earth Federation MS. The bazooka can be fired even when stored on the backpack, catching the opponent by surprise. It is capable of destroying an enemy unit in a single shot and is mostly used to take out slow, heavily armored targets.
+                                        <br>
+                                        <br>
+                                        <li><b>Spare Beam Saber</b></li>
+                                        Shield
+                                        A custom shield emblazoned with Amuro's emblem. It features a built-in 7.8 MW beam cannon and four missiles. Amuro uses it in many strategic ways, such as fooling enemies that he was shot down by leaving the shield and the New Hyper Bazooka, and attacking enemies once they lower their guards. Attached to the left arm's beam saber compartment.
+                                        <br>
+                                        <br>
+                                        <li><b>Fin Funnel</b></li>
+                                        A remote weapon unique to the ν Gundam, model number: AEV/PFF93AR. When attacking, it bends into a U shape and a magnetic field is created between the two generator arms for generating and accelerating the mega particles. Despite their name, the fin funnels are in function "bits", since they have built-in generators rather than the E-caps used by funnels[3]. While this made them more expensive to construct, it gives the fin funnels a longer operational time and allow them to fire more powerful beams compared to normal funnels. Each fin funnel has an output of 3.0 MW and can fire 7 shots in a single charge. The fin funnels also can generate a unique beam shield, known as a "fin funnel barrier", to protect against beam weaponry and solid projectiles. However, if an enemy funnel enters the barrier, it may cause physiological damage to the pilot due to psycho-wave interference. Although larger than normal funnels, the fin funnels have higher mobility as its triple block structure allows for AMBAC movements in addition to being propelled by its thruster. With the help of the Psycho-Frame technology, Amuro can control the fin funnels with his thoughts more effectively.
+                                        <br>
+                                        <br>
+                                        <li><b>Beam Machine Gun</b></li>
+                                        During the events in Mobile Suit Gundam: Char's Counterattack, the ν Gundam grabs a standard type beam machine gun from a Geara Doga and uses it in the final battle against the MSN-04 Sazabi.
+                                        </ul>
+                                    </div>
+                    
+                                </div>
+                                
+                                <h2 class="accordion-header" id="accordionThree">
+                                    <button class="accordion-button collapsed  bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentThree">History</button>
+                                </h2>
+                    
+                    
+                                <div class="accordion-collapse collapse" id="contentThree" data-bs-parent="#sampleAccordion">
+                                    <div class="accordion-body">
+                                        Following Amuro's failure to stop Char in attempting to drop Fifth Luna, Amuro decided to design a mobile suit that would be able to combat Char's MSN-04 Sazabi. Unknown to Amuro, Char learnt of this and allowed Anaheim Electronics to pass on the psycho-frame technology for the ν Gundam's use. However, testing of this machine was interrupted when fighting between Londo Bell and Neo Zeon forces force Amuro and his girlfriend Chan Agi to take the ν Gundam with them to save everyone.
+                                        <br>
+                                        <br>
+                                        Sadly, the lack of testing would easily been shown when, during one skirmish, Amuro's panicking caused his fin funnels to react, forcing Gyunei Guss to kill his captive, Kayra Su. As Londo Bell forces moved to stop Char from dropping Axis, Amuro and Char went head to head, battling one another and practically ravaging their suits. In the end, another flaw revealed itself - the psycho-frame resonated with high emotions and willpower, pushing Amuro's already amazing Newtype powers to new heights, and managed to push Axis away from the Earth. The resonance creates a light that could be seen from Earth.
+                                    </div>
+                    
+                                </div>
+                            </div>
+                    
+
+
+                    </div>
+                
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalKamille">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header text-wrap">
+                    <h3 class="modal-title">MSZ-006 Zeta Gundam</h3>
+                </div>
+    
+                <div class="modal-body text-wrap">
+                    <img src="img/ZetaFront.webp" class="d-inline-block h-100 float-lg-start">
+                    <p>The Zeta Gundam is a high-performance, next-generation MS constructed by Anaheim Electronics in partnership with the AEUG as part of the "Project Zeta". This project aimed to develop a transformable mobile suit capable of operating in space and on earth, but it stagnated due to problems with the strength of the movable frame. Progress was later made when Anaheim Electronics studied the movable frame of the RX-178 Gundam Mk-II units stolen by AEUG from the Titans.
+                    <br>
+                    <br>
+                    The main feature of the Zeta Gundam is its ability to instantly transform into a streamlined Waverider mode, which can fly at high speed in space as well as in the atmosphere. The Zeta Gundam can also function as a sub-flight system in this mode, carrying another mobile suit on its top surface. Furthermore, this mode also allows the Zeta Gundam to ride the shockwaves of atmospheric re-entry, thus it can enter the atmosphere without the use of the Ballute System, a bowl-shaped balloon parachute that protects a mobile suit from the friction heat of atmospheric entry. This atmospheric re-entry capability is thanks to the incorporation of the Flying Armor into the mobile suit's back (bottom in waverider mode), which is developed using the data of the Gundam Mk-II's FXA-00 Flying Armor.
+                    <br>
+                    <br>
+                    The Zeta Gundam is armored with the new lightweight Gundarium Gamma alloy, and has a variety of weaponry that includes two head-mounted vulcan guns, two beam sabers stored in the side armor that function as beam guns in Waverider mode, two forearm-mounted grenade launchers, a beam rifle with retractable barrel, and a shield. When higher firepower is required, it can use the powerful hyper mega launcher. The Zeta Gundam is also one of the first mobile suit to use the Bio-Sensor, a variant of the Psycommu system that allows a Newtype pilot to more easily interface with his mobile suit via mental commands.
+                    <br>
+                    <br>
+                    The Zeta Gundam is said to have received various upgrades from its initial model, such as the Initial Model + Wave Shooter, mid-model (major upgrade done in December UC 0087, most notable change being the rear skirt thrusters and addition of forearm grenade hatches) and the late model (final upgrade made in March UC 0088 consisting of Zeta Plus parts).
+                    <br></p>
+
+
+                    <div class="accordion d-inline-block w-100" id="sampleAccordion">
+                    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accordionOne">
+                                <button class="accordion-button collapsed bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentOne">Special Equipment</button>
+                            </h2>
+                            
+                            <div class="accordion-collapse collapse" id="contentOne" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><b>Bio-Sensor</b></li>
+                                        A technological variant of the Psycommu system developed by Anaheim Electronics. Although its full capabilities are unknown, its primary purpose is to allow a Newtype pilot to more easily interface with his mobile suit via mental commands. The bio-sensor could also have a rather surprising side effect when the pilot is mentally and emotionally focused enough (usually when angry or upset) to cause the bio-sensor to amplify the power, speed, and strength of the mobile suit for a short period of time.
+                                        <br>
+                                        <br>
+                                        <li><b>Sealant Launchers</b></li>
+                                        This device sprays a sticky sealant, similar to the wall film used to mend breaches in warship hulls. This substance can be used to seal ruptures in spacecraft and space colony exteriors. By the time of the Gryps Conflict, most mobile suits have sealant launchers built into their fingers, as well as utility devices like signal flare launchers, dummy dispensers, and fire extinguishers.
+                                        <br>
+                                        <br>
+                                        <li><b>MS-06F Zaku II Head</b></li>
+                                        After losing its head in an earlier battle against the AMX-103 Hamma Hamma and AMX-104 R-Jarja, the Zeta Gundam was hastily repaired by Iino Abbav using an old Zaku II head (due to a lack of spare parts) so that it can assist the ZZ Gundam in battle. This Zaku II head was salvaged by Judau Ashta in between the battles from an asteroid field and towed back to the Argama. While this "Zeta Zaku" was operational, the old Zaku II head caused the cockpit screen to revert to the old, non-360 degree display, leaving Iino vulnerable to enemies that could sneak up to him from areas he could not see.
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h2 class="accordion-header" id="accordionTwo">
+                                <button class="accordion-button collapsed bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentTwo">Armaments</button>
+                            </h2>
+                
+                            <div class="accordion-collapse collapse" id="contentTwo" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><b>MU-86G 60mm Vulcan Gun</b></li>
+                                        The basic armament of many mobile suits, a pair are mounted on the Zeta Gundam's head and loaded with 600 rounds. The Vulcan Guns are mainly for intercepting incoming missiles/rockets, destroying mobile suit sensors, and engaging lightly-armored vehicles. They are operable in mobile suit mode only.
+                                        <br>
+                                        <br>
+                                        <li><b>2-tube Grenade Launcher</b></li>
+                                        A pair of 2-tube grenade launchers are built into the Zeta Gundam's forearms. The grenades are moderately powerful self-propelling explosives that can deal significant damage to a mobile suit. Each tube carries two rounds, meaning each grenade launcher carries four grenades, for a total of eight rounds. When more rounds are needed, a magazine holding 18+1 additional grenades can be attached to each grenade launcher. The grenade launchers are operable in mobile suit mode only.
+                                        <br>
+                                        <br>
+                                        <li><b>Grappling Wire</b></li>
+                                        Equipped in place of the grenade launchers' explosive warheads. It is mainly used to immobilize enemy units when the pilot wishes not to inflict damage to the target.
+                                        <br>
+                                        <br>
+                                        <li><b>A.E.BLASH XB-G-35/Du.105 Beam Saber</b></li>
+                                        The beam saber is the standard close-combat melee weapon of most MS. The pair employed by the Zeta Gundam are stored in the side armor and have a power rating of 0.65 MW. These beam sabers also double as beam guns in waverider mode, partially extending from their storage racks, and have a power rating of 1.3 MW.
+                                        <br>
+                                        <br>
+                                        <li><b>XBR-M87A2 Beam Rifle</b></li>
+                                        The Zeta Gundam's primary handheld ranged weapon, this beam rifle is longer than most models employed by other mobile suits in the same era and is powered by a replaceable e-pac, with a power rating of 5.7 MW. It can also emit a beam blade from its barrel, turning into a long beam saber for close combat use. The beam rifle is operable in mobile suit mode as well as waverider mode, where it is mounted on the long tail vernier stabilizer with its barrel retracted. In mobile suit mode, the rifle can be stored on the back or on the side of the forearm when not in use.
+                                        <br>
+                                        <br>
+                                        <li><b>FXA-03M2 Hyper Mega Launcher</b></li>
+                                        When the Zeta Gundam needs greater firepower than its beam rifle can deliver, it can be equipped with the hyper mega launcher with a power rating of 8.3 MW. This powerful weapon is powered by an internal compact generator and is developed from the Hyaku Shiki's mega bazooka launcher. Like the beam rifle, it can emit a beam blade from its barrel, turning into a long beam saber. The hyper mega launcher is usable in mobile suit mode and waverider mode, where it is mounted below the shield.
+                                        <br>
+                                        <br>
+                                        <li><b>FF-XV-SH-609Z Shield</b></li>
+                                        Mounted on the left forearm's latch in mobile suit mode, this defensive armament also functions as a flying sub unit and becomes the nose unit in waverider mode. It has high heat resistance and strength. In the movies, it has a pair of grenade launchers at the back.
+                                        <br>
+                                        <br>
+                                        <li><b>H-Baz-87-A*E/Ver.004 Hyper Bazooka</b></li>
+                                        A weapon borrowed from the RX-178 Gundam Mk-II, it is cartridge-fed and capable of carrying seven rounds per cartridge plus one round in its chamber.
+                                    </ul>
+                                </div>
+                
+                            </div>
+                            
+                            <h2 class="accordion-header" id="accordionThree">
+                                <button class="accordion-button collapsed  bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentThree">History</button>
+                            </h2>
+                
+                
+                            <div class="accordion-collapse collapse" id="contentThree" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    <b>Gryps War</b>
+                                    <br>
+                                    <br>
+                                    Early in the Gryps Conflict, Kamille, having just stolen the Gundam Mk-II, had ideas for upgrading his unit. Astonaige Medoz observed and complemented Kamille's design which was inspired by both the Mk-II and RMS-099 Rick Dias, Kamille referred to it as the "Zeta Gundam". Later, to prepare for entry into the atmosphere, Astonaige informed Kamille that they had completed the prototype for the Zeta Gundam.
+                                    <br>
+                                    <br>
+                                    Replacing the Gundam Mk-II as his personal Mobile Suit, Kamille obtained the Zeta Gundam after returning to space from the Hong Kong incident involving Four Murasame. Screaming into battle, this sleek convertible Mobile Suit took all of the Titans' forces by surprise with its incredible performance and attack potential. Kamille led many successful missions against the Titans and the A.E.U.G. turned the tide of the war. The Zeta was responsible for battling and ultimately killing Titans leader Paptimus Scirocco, besting his powerful mobile suit, the PMX-003 The O. However, Kamille was rendered in a vegetative state by a final psychic attack from Scirocco. Both the Zeta Gundam and Kamille was later recovered by A.E.U.G. pilot Fa Yuiry.
+                                    <br>
+                                    <br>
+                                    <b>First Neo Zeon War</b>
+                                    <br>
+                                    <br>
+                                    After undergoing repairs, the Zeta Gundam was mainly piloted by the Newtype Judau Ashta to battle the Neo Zeon forces, while the newer MSZ-010 ΖΖ Gundam was under construction by Anaheim Electronics. During a battle with Mashymre Cello's AMX-103 Hamma Hamma and Chara Soon's AMX-104 R-Jarja, the Zeta Gundam's head was destroyed by the Hamma Hamma's shield beam gun. Due to a shortage of spare parts aboard the Argama, the Zeta Gundam was temporarily repaired using a salvaged MS-06F Zaku II's head, thus earning the nickname "Zeta Zaku". The temporary fix by Iino Abbav worked, however the cockpit screen reverted to an old-fashioned display, as the Zaku II head was not built for the 360-degree panoramic cockpit.
+                                    <br>
+                                    <br>
+                                    When Judau received the ZZ Gundam, Roux Louka became the Zeta Gundam's designated pilot. Judau would occasionally trade mobile suits with Roux, as the Zeta Gundam was better suited for speed and mobility. The Zeta Gundam operated until its destruction at the end of the First Neo Zeon War, crippled by Ple Two's monstrous NZ-000 Queen Mansa, although the Zeta got in one final crippling shot before being abandoned.
+                                </div>
+                
+                            </div>
+                        </div>
+                
+
+                </div>
+                </div>
+    
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalJudau">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header text-wrap">
+                    <h3 class="modal-title">MSZ-010 ZZ Gundam</h3>
+                </div>
+    
+                <div class="modal-body text-wrap">
+                    <img src="img/ZZFront.webp" class="d-block h-75 w-25 float-start">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam corrupti ipsa blanditiis temporibus quod sunt, eum dolorem reiciendis saepe provident dignissimos earum laboriosam. Hic soluta nobis debitis inventore aspernatur omnis.
+                    <br>
+                    <div class="accordion" id="sampleAccordion">
+                    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accordionOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#contentOne">Specs</button>
+                            </h2>
+                            
+                            <div class="accordion-collapse collapse" id="contentOne" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum doloremque minus rem amet eos tempore. Voluptatibus, ut corporis nisi dolores reiciendis esse aspernatur magnam vel, ipsa, corrupti tempora quaerat!
+                                </div>
+                
+                            </div>
+                        </div>
+                
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accordionTwo">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#contentTwo">Armaments</button>
+                            </h2>
+                
+                            <div class="accordion-collapse collapse" id="contentTwo" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum doloremque minus rem amet eos tempore. Voluptatibus, ut corporis nisi dolores reiciendis esse aspernatur magnam vel, ipsa, corrupti tempora quaerat!
+                                </div>
+                
+                            </div>
+                            
+                            <h2 class="accordion-header" id="accordionThree">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#contentThree">History</button>
+                            </h2>
+                
+                
+                            <div class="accordion-collapse collapse" id="contentThree" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum doloremque minus rem amet eos tempore. Voluptatibus, ut corporis nisi dolores reiciendis esse aspernatur magnam vel, ipsa, corrupti tempora quaerat!
+                                </div>
+                
+                            </div>
+                        </div>
+
+                </div>
+                </div>
+    
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalChar">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header text-wrap">
+                    <h3 class="modal-title">MSN-04 Sazabi</h3>
+                </div>
+    
+                <div class="modal-body text-wrap">
+                    <img src="img/SazabiFront.webp" class="d-block h-75 w-25 float-start">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam corrupti ipsa blanditiis temporibus quod sunt, eum dolorem reiciendis saepe provident dignissimos earum laboriosam. Hic soluta nobis debitis inventore aspernatur omnis.
+                    <br>
+                    <div class="accordion" id="sampleAccordion">
+                    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accordionOne">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#contentOne">Specs</button>
+                            </h2>
+                            
+                            <div class="accordion-collapse collapse" id="contentOne" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum doloremque minus rem amet eos tempore. Voluptatibus, ut corporis nisi dolores reiciendis esse aspernatur magnam vel, ipsa, corrupti tempora quaerat!
+                                </div>
+                
+                            </div>
+                        </div>
+                
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="accordionTwo">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#contentTwo">Armaments</button>
+                            </h2>
+                
+                            <div class="accordion-collapse collapse" id="contentTwo" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum doloremque minus rem amet eos tempore. Voluptatibus, ut corporis nisi dolores reiciendis esse aspernatur magnam vel, ipsa, corrupti tempora quaerat!
+                                </div>
+                
+                            </div>
+                            
+                            <h2 class="accordion-header" id="accordionThree">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#contentThree">History</button>
+                            </h2>
+                
+                
+                            <div class="accordion-collapse collapse" id="contentThree" data-bs-parent="#sampleAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum doloremque minus rem amet eos tempore. Voluptatibus, ut corporis nisi dolores reiciendis esse aspernatur magnam vel, ipsa, corrupti tempora quaerat!
+                                </div>
+                
+                            </div>
+                        </div>
+
+                </div>
+                </div>
+    
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="footer bg-info text-light">
+        Source: GUNDAM Fandom Wiki
+    </div>
+</body>
+
+<!-- <script src="js/bootstrap.js"></script> -->
+<script src="js/bootstrap.bundle.js"></script>
+
+</html>
