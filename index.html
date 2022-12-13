@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GUNDAM library</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">  
     
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+        
+        body{
+            background: url("img/background.webp");
+            background-size: cover;
+        }
+
         nav{
             font-size: 20px;
+        }
+
+        .navbar-brand{
+            font-family: 'Kenia';
+        }
+
+        .logo{
+            font-family: 'Kenia';
+            color: darkred;
+        }
+
+        .logo2{
+            font-family: 'Kenia';
+            font-size: 10px;
+        }
+
+        .logo3{
+            font-family: 'Kenia';
+            font-size: 10px;
         }
 
         .no-padding {
@@ -20,19 +46,18 @@
 
         .font-size{
             font-size: 50px;
-            color: rgb(23, 162, 184);
         }
 
     </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-info navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark sticky-top">
 
         <div class="container-fluid">
             <a class="navbar-brand text-center" href="">
-                GUNDAM
-                <h6>Universal Century</h6>
+                <b class="logo">GUNDAM</b>
+                <h6 class="logo2">Universal Century</h6>
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#thisIsTheMenu">
                 <span class="navbar-toggler-icon"></span>
@@ -98,8 +123,8 @@
             </div>
         </div>
 
-        <nav class="navbar-nav me-0 w-50">
-            <form class="container-fluid align-content-end ms-5">
+        <nav class="navbar-nav">
+            <form class="container-fluid d-none d-lg-block align-content-end ms-5">
                 <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
                 <button class="btn btn-success">
@@ -165,38 +190,10 @@
         <div class="row gx-3 gy-5">
 
         <div class="col-12">
-                <div class="card text-center text-light bg-warning">
-                    <div class="header mx-5 my-3">
-                        <h1>ANNOUNCEMENT</h1>
-                    </div>
-
-                    <div class="card-body mx-5 my-3">
-                        <h4 class="card-title">SITE IS STILL UNDER REPAIR</h4>
-                    
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
-                        
-                        <br>
-                        <br>
-
-                        <a href="#" class="btn text-warning btn-light">
-                            View More
-                        </a>
-    
-                </div>
-    
-                <div class="footer mx-5 my-3">
-                    Until: December 09, 2022
-                    <br>
-                </div>
-    
-            </div>
-        </div>
-
-        <div class="col-12">
             <div class="card text-center">
                 <div class="header mx-5 my-3">
-                    <h3>GUNDAM REPOSITORY</h3>
-                    <h4 class="text-secondary">Universal Century</h4>
+                    <h3 class="logo">GUNDAM</h3>
+                    <h3 class="text-secondary logo2">Universal Century</h4>
                 </div>
 
                 <div class="card-body mx-5 my-3">
@@ -220,9 +217,9 @@
 
 
 
-        <div class="text-center">
-            <h1>Ace Pilots:</h1>
-            <h3 class="text-secondary">[Mobile Suit]</h3>
+        <div class="text-center bg-dark border-1 d-block">
+            <h1 class="text-light">Ace Pilots:</h1>
+            <h3 class="text-light">[Mobile Suit]</h3>
         </div>
 
 
@@ -238,7 +235,7 @@
                         <p class="card-text">The RX-93 ν Gundam (aka Nu Gundam, Nu) is a mobile suit that appears in Mobile Suit Gundam: Char's Counterattack. It was designed and piloted by Amuro Ray.</p>
 
 
-                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#modalAmuro">
+                        <button class="btn text-light btn-success" data-bs-toggle="modal" data-bs-target="#modalAmuro">
                             View More
                         </button>
 
@@ -258,7 +255,7 @@
                         <br>
                         <p class="card-text">The MSΖ-006 Zeta Gundam is the titular mobile suit of the Mobile Suit Zeta Gundam television series and also featured in the Mobile Suit Gundam ZZ television series. It was piloted by one of its designers, Kamille Bidan, during the Gryps Conflict.</p>
 
-                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#modalKamille">
+                        <button class="btn text-light btn-success" data-bs-toggle="modal" data-bs-target="#modalKamille">
                             View More
                         </button>
 
@@ -278,7 +275,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
 
 
-                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#modalJudau">
+                        <button class="btn text-light btn-success" data-bs-toggle="modal" data-bs-target="#modalJudau">
                             View More
                         </button>
 
@@ -297,7 +294,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
 
 
-                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#modalChar">
+                        <button class="btn text-light btn-success" data-bs-toggle="modal" data-bs-target="#modalChar">
                             View More
                         </button>
 
@@ -319,7 +316,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
 
 
-                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#">
+                        <button class="btn text-light btn-success" data-bs-toggle="modal" data-bs-target="#">
                             View More
                         </button>
 
@@ -339,7 +336,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facere distinctio? Dolores blanditiis accusantium modi totam, reprehenderit enim ipsum aliquid doloremque reiciendis ab aut deserunt quisquam laboriosam autem ad explicabo?</p>
 
 
-                        <button class="btn text-light btn-info" data-bs-toggle="modal" data-bs-target="#">
+                        <button class="btn text-light btn-success" data-bs-toggle="modal" data-bs-target="#">
                             View More
                         </button>
 
@@ -353,14 +350,13 @@
         <br>
 
         <div class="text-start">
-            <h1 class="text-center">FEEDBACK</h1>
-            <div class="text-center">
+            <h1 class="text-center text-success">FEEDBACK</h1>
+            <div class="text-center text-success">
                 <i class="fa-brands fa-google font-size"></i>
                 <i class="fa-brands fa-facebook font-size"></i>
                 <i class="fa-brands fa-twitter font-size"></i>
                 <i class="fa-brands fa-pinterest font-size"></i>
                 <i class="fa-brands fa-instagram font-size"></i>
-
             </div>
 
             <form action="">
@@ -377,7 +373,7 @@
                 <textarea class="form-control h-100"></textarea>
                 <br>
                 <div class="text-center">
-                    <input type="submit" class="btn text-light btn-info w-25">
+                    <input type="submit" class="btn text-light btn-success w-25">
                 </div>
             </form>
         </div>
@@ -418,7 +414,7 @@
                     
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="accordionOne">
-                                    <button class="accordion-button collapsed bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentOne">Special Equipment</button>
+                                    <button class="accordion-button collapsed bg-success text-light" data-bs-toggle="collapse" data-bs-target="#contentOne">Special Equipment</button>
                                 </h2>
                                 
                                 <div class="accordion-collapse collapse" id="contentOne" data-bs-parent="#sampleAccordion">
@@ -439,7 +435,7 @@
                                 </div>
 
                                 <h2 class="accordion-header" id="accordionTwo">
-                                    <button class="accordion-button collapsed bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentTwo">Armaments</button>
+                                    <button class="accordion-button collapsed bg-success text-light" data-bs-toggle="collapse" data-bs-target="#contentTwo">Armaments</button>
                                 </h2>
                     
                                 <div class="accordion-collapse collapse" id="contentTwo" data-bs-parent="#sampleAccordion">
@@ -482,7 +478,7 @@
                                 </div>
                                 
                                 <h2 class="accordion-header" id="accordionThree">
-                                    <button class="accordion-button collapsed  bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentThree">History</button>
+                                    <button class="accordion-button collapsed bg-success text-light" data-bs-toggle="collapse" data-bs-target="#contentThree">History</button>
                                 </h2>
                     
                     
@@ -539,7 +535,7 @@
                     
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="accordionOne">
-                                <button class="accordion-button collapsed bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentOne">Special Equipment</button>
+                                <button class="accordion-button collapsed bg-success text-light" data-bs-toggle="collapse" data-bs-target="#contentOne">Special Equipment</button>
                             </h2>
                             
                             <div class="accordion-collapse collapse" id="contentOne" data-bs-parent="#sampleAccordion">
@@ -560,7 +556,7 @@
                             </div>
 
                             <h2 class="accordion-header" id="accordionTwo">
-                                <button class="accordion-button collapsed bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentTwo">Armaments</button>
+                                <button class="accordion-button collapsed bg-success text-light" data-bs-toggle="collapse" data-bs-target="#contentTwo">Armaments</button>
                             </h2>
                 
                             <div class="accordion-collapse collapse" id="contentTwo" data-bs-parent="#sampleAccordion">
@@ -602,7 +598,7 @@
                             </div>
                             
                             <h2 class="accordion-header" id="accordionThree">
-                                <button class="accordion-button collapsed  bg-info text-light" data-bs-toggle="collapse" data-bs-target="#contentThree">History</button>
+                                <button class="accordion-button collapsed bg-success text-light" data-bs-toggle="collapse" data-bs-target="#contentThree">History</button>
                             </h2>
                 
                 
@@ -773,7 +769,7 @@
 
     <br>
 
-    <div class="footer bg-info text-light">
+    <div class="footer bg-success text-light">
         Source: GUNDAM Fandom Wiki
     </div>
 </body>
